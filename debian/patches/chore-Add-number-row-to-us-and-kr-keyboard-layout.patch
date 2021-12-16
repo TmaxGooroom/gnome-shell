@@ -1,0 +1,181 @@
+From: jiyun_ha <jiyun_ha@tmax.co.kr>
+Date: Fri, 9 Jul 2021 13:23:17 +0900
+Subject: [chore] Add number row to us and kr keyboard layout
+
+ - add number row to us.json and kr.json
+---
+ data/osk-layouts/kr.json | 64 ++++++++++++++++++++++++++++++++++++++++++++++
+ data/osk-layouts/us.json | 66 +++++++++++++++++++++++++++++++++++++++++++++++-
+ 2 files changed, 129 insertions(+), 1 deletion(-)
+
+diff --git a/data/osk-layouts/kr.json b/data/osk-layouts/kr.json
+index 99c11a3..5b907e4 100644
+--- a/data/osk-layouts/kr.json
++++ b/data/osk-layouts/kr.json
+@@ -4,6 +4,38 @@
+       "level": "",
+       "mode": "default",
+       "rows": [
++        [
++          [
++            "1"
++          ],
++          [
++            "2"
++          ],
++          [
++            "3"
++          ],
++          [
++            "4"
++          ],
++          [
++            "5"
++          ],
++          [
++            "6"
++          ],
++          [
++            "7"
++          ],
++          [
++            "8"
++          ],
++          [
++            "9"
++          ],
++          [
++            "0"
++          ]
++        ],
+         [
+           [
+             "ㅂ"
+@@ -113,6 +145,38 @@
+       "level": "shift",
+       "mode": "latched",
+       "rows": [
++        [
++          [
++            "!"
++          ],
++          [
++            "@"
++          ],
++          [
++            "#"
++          ],
++          [
++            "$"
++          ],
++          [
++            "%"
++          ],
++          [
++            "^"
++          ],
++          [
++            "&"
++          ],
++          [
++            "*"
++          ],
++          [
++            "("
++          ],
++          [
++            ")"
++          ]
++        ],
+         [
+           [
+             "ㅃ"
+diff --git a/data/osk-layouts/us.json b/data/osk-layouts/us.json
+index 94dd6d3..02794e8 100644
+--- a/data/osk-layouts/us.json
++++ b/data/osk-layouts/us.json
+@@ -4,6 +4,38 @@
+       "level": "",
+       "mode": "default",
+       "rows": [
++        [
++          [
++            "1"
++          ],
++          [
++            "2"
++          ],
++          [
++            "3"
++          ],
++          [
++            "4"
++          ],
++          [
++            "5"
++          ],
++          [
++            "6"
++          ],
++          [
++            "7"
++          ],
++          [
++            "8"
++          ],
++          [
++            "9"
++          ],
++          [
++            "0"
++          ]
++        ],
+         [
+           [
+             "q"
+@@ -147,6 +179,38 @@
+       "level": "shift",
+       "mode": "latched",
+       "rows": [
++        [
++          [
++            "!"
++          ],
++          [
++            "@"
++          ],
++          [
++            "#"
++          ],
++          [
++            "$"
++          ],
++          [
++            "%"
++          ],
++          [
++            "^"
++          ],
++          [
++            "&"
++          ],
++          [
++            "*"
++          ],
++          [
++            "("
++          ],
++          [
++            ")"
++          ]
++        ],
+         [
+           [
+             "Q"
+@@ -572,4 +636,4 @@
+   ],
+   "locale": "en",
+   "name": "English United States"
+-}
+\ No newline at end of file
++}
