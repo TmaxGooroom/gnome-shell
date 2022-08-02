@@ -66,10 +66,7 @@
 }
 
 #lockDialogGroup {
-  background: #41494c url("file:///usr/share/desktop-base/active-theme/login/background.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-color: lighten(#2e3436, 8%);
 }
 
 #unlockDialogNotifications {

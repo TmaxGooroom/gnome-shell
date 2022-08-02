@@ -4,10 +4,6 @@ project('gnome-shell', 'c',
   license: 'GPLv2+'
 )
 
-#Apply Git Hook DIrectory
-hook_dir = join_paths(meson.source_root(), 'hooks')
-run_command('git', 'config', 'core.hooksPath', hook_dir)
-
 split_version = meson.project_version().split('.')
 
 # We depend on a specific version of the libmutter API. The mutter variants of
